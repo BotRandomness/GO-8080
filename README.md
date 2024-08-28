@@ -32,10 +32,7 @@ Want to use it, and mess around? Here's how you can get started!
 3. Open the `GO-8080.exe`
 4. You are ready to go!
 #### MacOS/Linux
-1. Download it from [here](https://github.com/BotRandomness/GO-8080/releases), or on the releases page.
-2. Unzip the folder
-3. Run `./GO-8080`
-4. You are ready to go!
+Not available yet as cgo makes it a little more complicated to cross compile, but you can compile it yourself for your platform :)
 ### Controls
 - Arrow keys `[<-][->]` To move left and right
 - [SPACE] bar is to shoot
@@ -180,7 +177,7 @@ Also shoutout to the EmuDev community!
 - [ ] Graphical glitch
   - Aliens in the top row when shifting down cause a double
 - [ ] Timing issue?
-  - This one is a werid one, so Space Invaders runs at 60 FPS, pretty much original speed, but I made no timing mechanism, besides raylib setting FPS. I was under the assumption it was independent from the graphics, and theoretically it would be running at a fast speed, but that does not seem to be the case? This is the aspect that's making me wonder the most. I had a issue with major slow down with graphics, but that was fixed my drawing active pixels only.
+  - This one is a werid one, so Space Invaders runs at 60 FPS, pretty much original speed, but I made no timing mechanism, besides raylib setting FPS. I was under the assumption it was independent from the graphics, and theoretically it would be running at a fast speed, but that does not seem to be the case? This is the aspect that's making me wonder the most. I had a issue with major slow down with graphics, but that was fixed my drawing active pixels only. Any ideas on this would be great just post about it in the issue tab :)
 - [ ] Graphics code could be better
   - Maybe not efficient?
 - [ ] General code refactor
