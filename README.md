@@ -79,11 +79,11 @@ To get started, you need to have GO install, as well as the raylib-go binding li
 3. Clone this repository, and point your terminal to the root directory of the repository
 4. Run `go run ./src` to compile, and it should run right after!
 
-#### Build
+### Build
 To bulid a executable for your platform:
-##### Windows
+#### Windows
 `go build -o bin/GO-8080.exe ./src`
-##### MacOS/Linux
+#### MacOS/Linux
 `go build -o bin/GO-8080 ./src`
 
 ### Program Architechture
